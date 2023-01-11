@@ -5,8 +5,9 @@
 @import "./assets/sass/base/base", "./assets/sass/base/typography";
 
 // Components
-@import "./assets/sass/components/button";
+@import "./assets/sass/components/buttons", "./assets/sass/components/headings";
 
 // Layout
 @import "./assets/sass/layout/header", "./assets/sass/layout/navigation",
-  "./assets/sass/layout/banner", "./assets/sass/layout/about";
+  "./assets/sass/layout/banner", "./assets/sass/layout/about",
+  "./assets/sass/layout/skills";
