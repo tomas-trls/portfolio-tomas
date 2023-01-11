@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  .header {
+    &__logo {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 140px;
+    }
+    &__icon {
+      color: $color-aqua;
+    }
+
+    &__bold {
+      font-weight: 800;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+//Breakpoints
+$breakpoints: (
+  "xs": (
+    max-width: 425px,
+  ),
+  "small": (
+    max-width: 768px,
+  ),
+  "medium": (
+    min-width: 768px,
+  ),
+  "large": (
+    min-width: 992px,
+  ),
+  "huge": (
+    min-width: 1440px,
+  ),
+);
+
+//Colors
+$color-darkaqua: #bae8e8;
+$color-whiteaqua: #f7fafa;
+$color-lightaqua: #e3f6f5;
+$color-aqua: #a3e1de;
+$color-darkblue: #272643;
+
+$color-grey: #8c9cb1;
