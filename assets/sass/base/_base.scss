@@ -5,6 +5,7 @@
 }
 
 body {
+  margin: 0 100px;
   @include respond-to("small") {
     margin: 0 5%;
   }
