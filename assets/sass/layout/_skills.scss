@@ -41,4 +41,37 @@
       width: 60px;
     }
   }
+
+  @include respond-to("medium") {
+    &__description--hidden {
+      display: block;
+      text-align: center;
+      width: 700px;
+      color: $color-grey;
+    }
+
+    &__content {
+      width: 750px;
+      grid-template: 1fr / repeat(9, 1fr);
+      height: 150px;
+      gap: 0;
+    }
+
+    &__icon {
+      height: 70px;
+      width: 70px;
+    }
+  }
+
+  @include respond-to("large") {
+    &__content {
+      width: 900px;
+    }
+  }
+
+  @include respond-to("huge") {
+    &__content {
+      width: 1100px;
+    }
+  }
 }

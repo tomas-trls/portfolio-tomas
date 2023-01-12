@@ -5,8 +5,15 @@
 }
 
 body {
-  margin: 0 100px;
   @include respond-to("small") {
     margin: 0 5%;
+  }
+}
+@include respond-to("medium") {
+  header {
+    margin: 0 100px;
+  }
+  .banner {
+    margin: 0 50px;
   }
 }

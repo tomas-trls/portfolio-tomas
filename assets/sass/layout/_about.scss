@@ -2,14 +2,12 @@
   display: flex;
   align-items: center;
   height: 100vh;
-  border: 2px dashed purple;
 
   &__title--hidden {
     display: none;
   }
 
   &__text {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,13 +46,16 @@
   }
 
   @include respond-to("medium") {
+    justify-content: space-evenly;
     &__text {
       padding: 0 50px;
-      width: 700px;
+      width: 500px;
+      height: 300px;
+      justify-content: space-evenly;
     }
 
     &__image-container {
-      margin: 0 50px;
+      margin: 0px;
       height: 500px;
     }
   }
