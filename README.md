@@ -29,6 +29,15 @@ Open the ```index.html``` file inside the folder.
 
 ** HTML, CSS, SCSS **
 
+## 💫 Accessibility Scores 💫
+
+<img scr="" alt="" width='40%'/>
+<img scr="" alt="" width ='40%' />
+
+## Future Features 🦄
+  - I still need to make a proper mobile sandwich menu, but I am waiting to learn JS to do it!. 
+  - I will also write real texts, not using only Lorem Ipsum.
+  - I hope I can improve my site using React and new Technologies that we will with the other _Nologists!
 
 ## Contact Me
 - [@tomas-trls](https://www.github.com/tomas-trls)
