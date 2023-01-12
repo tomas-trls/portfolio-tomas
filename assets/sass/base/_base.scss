@@ -4,9 +4,13 @@
   margin: 0;
 }
 
-body {
-  @include respond-to("small") {
+@include respond-to("small") {
+  body > *:not(footer) {
     margin: 0 5%;
+
+    .projects {
+      margin-bottom: 50px;
+    }
   }
 }
 @include respond-to("medium") {
@@ -15,5 +19,9 @@ body {
   }
   .banner {
     margin: 0 50px;
+  }
+
+  .projects {
+    margin: 0 50px 100px;
   }
 }

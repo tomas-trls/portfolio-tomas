@@ -19,6 +19,7 @@
   @include respond-to("small") {
     &__burger {
       display: block;
+      width: 0;
     }
 
     &__list {

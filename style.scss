@@ -5,9 +5,11 @@
 @import "./assets/sass/base/base", "./assets/sass/base/typography";
 
 // Components
-@import "./assets/sass/components/buttons", "./assets/sass/components/headings";
+@import "./assets/sass/components/buttons", "./assets/sass/components/headings",
+  "./assets/sass/components/cards";
 
 // Layout
 @import "./assets/sass/layout/header", "./assets/sass/layout/navigation",
   "./assets/sass/layout/banner", "./assets/sass/layout/about",
-  "./assets/sass/layout/skills";
+  "./assets/sass/layout/skills", "./assets/sass/layout/projects",
+  "./assets/sass/layout/footer";

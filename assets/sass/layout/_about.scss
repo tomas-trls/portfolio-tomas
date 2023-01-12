@@ -25,7 +25,7 @@
     object-fit: cover;
   }
 
-  @include respond-to("small") {
+  @include respond-to("xs") {
     flex-direction: column;
     justify-content: space-around;
     margin: 30px 0;
@@ -45,6 +45,26 @@
     }
   }
 
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 30px 0;
+    &__heading {
+      display: none;
+    }
+
+    &__title--hidden {
+      display: block;
+      order: -2;
+    }
+    &__image-container {
+      border: 1px solid red;
+      margin: 30px 0;
+      height: 450px;
+      order: -1;
+    }
+  }
+
   @include respond-to("medium") {
     justify-content: space-evenly;
     &__text {
@@ -57,6 +77,7 @@
     &__image-container {
       margin: 0px;
       height: 500px;
+      flex-shrink: 0;
     }
   }
 }
