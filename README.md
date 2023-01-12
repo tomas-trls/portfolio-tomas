@@ -33,7 +33,7 @@ Open the ```index.html``` file inside the folder.
  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="80" height="80"/> </a> <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sass-lang/sass-lang-icon.svg" alt="sass" width="80" height="80"/> </a> 
 </p>
 
-## ❄️ Accessibility Scores ❄️
+## 🦄 Lighthouse Scores 🦄
 <p align="center">
 <strong>Lighthouse for Desktop:</strong> </br></br>
 <img src="./assets/images/Accessibility-screen-desktop.png?raw=true" alt="Accessability Score for Desktop" width='60%'/> </br></br></br></br>
@@ -41,12 +41,12 @@ Open the ```index.html``` file inside the folder.
 <img src="./assets/images/Accessibility-screen-mobile.png?raw=true" alt="Accessability Score for Mobile" width ='60%'/>
 </p>
 
-## Future Features 🦄
+## 🚀 Future Features 🚀
   - I still need to make a proper mobile sandwich menu, but I am waiting to learn JS to do it!. 
   - I will also write real texts, not using only Lorem Ipsum.
   - I hope I can improve my site using React and new Technologies that we will learn with the other _Nologists!
 
-## Contact Me
+## 💎 Contact Me 💎
 - [@tomas-trls](https://www.github.com/tomas-trls)
 - tomast25@hotmail.com
 
