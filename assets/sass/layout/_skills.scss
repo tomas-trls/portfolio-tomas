@@ -34,4 +34,11 @@
   &__title {
     color: $color-grey;
   }
+
+  @include respond-to("xs") {
+    &__icon {
+      height: 60px;
+      width: 60px;
+    }
+  }
 }

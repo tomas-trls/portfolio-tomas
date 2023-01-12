@@ -222,4 +222,10 @@ header .header__name a {
 }
 .skills__title {
   color: #8c9cb1;
+}
+@media (max-width: 425px) {
+  .skills__icon {
+    height: 60px;
+    width: 60px;
+  }
 }/*# sourceMappingURL=style.css.map */
