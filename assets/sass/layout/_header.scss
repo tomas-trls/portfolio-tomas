@@ -17,5 +17,12 @@ header {
     &__bold {
       font-weight: 800;
     }
+
+    &__name {
+      a {
+        text-decoration: none;
+        color: $color-darkblue;
+      }
+    }
   }
 }
