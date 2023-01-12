@@ -4,4 +4,31 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+
+  &__description--hidden {
+    display: none;
+  }
+
+  &__content {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  }
+
+  &__item {
+    height: 120px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__icon {
+    filter: invert(93%) sepia(8%) saturate(1171%) hue-rotate(118deg)
+      brightness(93%) contrast(90%);
+    height: 70px;
+  }
+  &__title {
+    color: $color-grey;
+  }
 }

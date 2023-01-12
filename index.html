@@ -16,17 +16,19 @@
       <div class="header__logo">
         <i class="fa-solid fa-code header__icon"></i>
         <div class="header__name">
-          Tomas <span class="header__bold">Truyols</span>
+          <a href="#header">
+            Tomas <span class="header__bold">Truyols</span>
+          </a>
         </div>
       </div>
       <nav class="header__nav nav">
         <div><i class="fa-solid fa-bars nav__burger"></i></div>
-        <ul class="nav__list--hidden">
+        <ul class="nav__list nav__list--hidden">
           <li class="nav__item"><a href="" class="nav__link">Home</a></li>
           <li class="nav__item"><a href="" class="nav__link">About</a></li>
           <li class="nav__item"><a href="" class="nav__link">Projects</a></li>
           <li class="nav__item">
-            <a href="" class="btn nav__link">Get in Touch</a>
+            <a href="" class="btn nav__btn">Get in Touch</a>
           </li>
         </ul>
       </nav>
@@ -39,14 +41,20 @@
             A junior <span class="highlight">Software Developer</span> based in
             the UK.
           </h1>
-          <a href="" class="btn banner__button">Take a look at my work</a>
+          <a href="" class="btn banner__button"
+            >Take a look at my work
+            <img
+              class="banner__arrow"
+              src="./assets/images/iconoir_long-arrow-right-down.svg"
+              alt="turn-right-down-arrow"
+          /></a>
         </div>
       </div>
       <section id="about-me" class="about">
         <h2 class="about__title--hidden heading">
           <span class="highlight">About me</span>
         </h2>
-        <article class="about-text">
+        <article class="about__text">
           <h2 class="about__heading heading">
             <span class="highlight">About me</span>
           </h2>
@@ -59,10 +67,10 @@
             </p>
             <br />
             <p about__paragraph>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              minima maiores quod sequi eligendi. Facilis blanditiis repellendus
-              adipisci mollitia doloremque optio, est tempore culpa enim vel
-              quo, possimus, quidem eveniet!
+              Ratione minima maiores quod sequi eligendi. Lorem ipsum, dolor sit
+              amet consectetur adipisicing elit. Quia rerum suscipit temporibus,
+              voluptas corporis commodi odio eos repudiandae exercitationem iure
+              animi. Libero consectetur excepturi veritatis.
             </p>
           </article>
         </article>
@@ -85,43 +93,76 @@
         </p>
         <div class="skills__content">
           <figure class="skills__item">
-            <img src="./assets/images/git.svg" alt="Git Logo" />
-            <figcaption>GIT</figcaption>
-          </figure>
-          <figure class="skills__item">
-            <img src="./assets/images/html.svg" alt="Html5 Logo" />
-            <figcaption>HTML 5</figcaption>
-          </figure>
-          <figure class="skills__item">
-            <img src="./assets/images/css3.svg" alt="Css3 Logo" />
-            <figcaption>CSS 3</figcaption>
-          </figure>
-          <figure class="skills__item">
-            <img src="./assets/images/javascript.svg" alt="JavaScript Logo" />
-            <figcaption>JavaScript</figcaption>
-          </figure>
-          <figure class="skills__item">
-            <img src="./assets/images/Sass.svg" alt="Sass Logo" />
-            <figcaption>Sass</figcaption>
-          </figure>
-          <figure class="skills__item">
-            <img src="./assets/images/BEM.svg" alt="BEM Logo" />
-            <figcaption>BEM</figcaption>
-          </figure>
-          <figure class="skills__item">
-            <img src="./assets/images/React.svg" alt="React Logo" />
-            <figcaption>React</figcaption>
-          </figure>
-          <figure class="skills__item">
-            <img src="./assets/images/Java.svg" alt="Java Logo" />
-            <figcaption>Java</figcaption>
+            <img
+              class="skills__icon"
+              src="./assets/images/git.svg"
+              alt="Git Logo"
+            />
+            <figcaption class="skills__title">GIT</figcaption>
           </figure>
           <figure class="skills__item">
             <img
+              class="skills__icon"
+              src="./assets/images/html.svg"
+              alt="Html5 Logo"
+            />
+            <figcaption class="skills__title">HTML 5</figcaption>
+          </figure>
+          <figure class="skills__item">
+            <img
+              class="skills__icon"
+              src="./assets/images/css3.svg"
+              alt="Css3 Logo"
+            />
+            <figcaption class="skills__title">CSS 3</figcaption>
+          </figure>
+          <figure class="skills__item">
+            <img
+              class="skills__icon"
+              src="./assets/images/javascript.svg"
+              alt="JavaScript Logo"
+            />
+            <figcaption class="skills__title">JavaScript</figcaption>
+          </figure>
+          <figure class="skills__item">
+            <img
+              class="skills__icon"
+              src="./assets/images/Sass.svg"
+              alt="Sass Logo"
+            />
+            <figcaption class="skills__title">Sass</figcaption>
+          </figure>
+          <figure class="skills__item">
+            <img
+              class="skills__icon"
+              src="./assets/images/BEM.svg"
+              alt="BEM Logo"
+            />
+            <figcaption class="skills__title">BEM</figcaption>
+          </figure>
+          <figure class="skills__item">
+            <img
+              class="skills__icon"
+              src="./assets/images/React.svg"
+              alt="React Logo"
+            />
+            <figcaption class="skills__title">React</figcaption>
+          </figure>
+          <figure class="skills__item">
+            <img
+              class="skills__icon"
+              src="./assets/images/Java.svg"
+              alt="Java Logo"
+            />
+            <figcaption class="skills__title">Java</figcaption>
+          </figure>
+          <figure class="skills__item">
+            <img
+              class="skills__icon"
               src="./assets/images/Spring_Boots.svg"
               alt="Spring Boots Logo"
             />
-            <figcaption>Spring Boots</figcaption>
+            <figcaption class="skills__title">Spring Boots</figcaption>
           </figure>
         </div>
       </section>
