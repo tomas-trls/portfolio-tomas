@@ -29,10 +29,13 @@ Open the ```index.html``` file inside the folder.
 
 ** HTML, CSS, SCSS **
 
-## 💫 Accessibility Scores 💫
-
-<img scr="" alt="" width='40%'/>
-<img scr="" alt="" width ='40%' />
+## ❄️ Accessibility Scores ❄️
+<p align="center">
+<strong>Lighthouse for Desktop:</strong> </br></br>
+<img src="./assets/images/Accessibility-screen-desktop.png?raw=true" alt="Accessability Score for Desktop" width='60%'/> </br></br></br></br>
+<strong>Lighthouse for Mobile:</strong> </br></br>
+<img src="./assets/images/Accessibility-screen-mobile.png?raw=true" alt="Accessability Score for Mobile" width ='60%'/>
+</p>
 
 ## Future Features 🦄
   - I still need to make a proper mobile sandwich menu, but I am waiting to learn JS to do it!. 
