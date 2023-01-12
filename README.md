@@ -2,7 +2,7 @@
 # 🌟 Portfolio Project 🦦 
 
 This site is a home page for my portfolio, It is the first independent project from _Nology.
-It describes my life, my technical skills, my previous project and has links to my Github and Linkedin.
+It describes my life, my technical skills, my previous projects and has links to my Github and Linkedin.
 
 I tried to push the limits of CSS, using all the tools available, such as grid and flexbox. It was really hard to adjust the images in order to have a reponsive site. But I managed to understand how ```max-width``` & ```max-height``` work! 
 
