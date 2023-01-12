@@ -195,7 +195,7 @@ header .header__name a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 100vh;
 }
 .skills__description--hidden {
@@ -204,18 +204,21 @@ header .header__name a {
 .skills__content {
   display: grid;
   grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+  width: 90%;
+  height: 65%;
+  gap: 10px;
 }
 .skills__item {
-  height: 120px;
-  width: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  text-align: center;
 }
 .skills__icon {
   filter: invert(93%) sepia(8%) saturate(1171%) hue-rotate(118deg) brightness(93%) contrast(90%);
-  height: 70px;
+  height: 75px;
+  width: 75px;
 }
 .skills__title {
   color: #8c9cb1;

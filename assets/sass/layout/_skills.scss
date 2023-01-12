@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 100vh;
 
   &__description--hidden {
@@ -12,21 +12,24 @@
   &__content {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    width: 90%;
+    height: 65%;
+    gap: 10px;
   }
 
   &__item {
-    height: 120px;
-    width: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    text-align: center;
   }
 
   &__icon {
     filter: invert(93%) sepia(8%) saturate(1171%) hue-rotate(118deg)
       brightness(93%) contrast(90%);
-    height: 70px;
+    height: 75px;
+    width: 75px;
   }
   &__title {
     color: $color-grey;
