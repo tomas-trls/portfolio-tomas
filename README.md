@@ -47,6 +47,5 @@ Open the ```index.html``` file inside the folder.
   - I hope I can improve my site using React and new Technologies that we will learn with the other _Nologists!
 
 ## 💎 Contact Me 💎
-- [@tomas-trls](https://www.github.com/tomas-trls)
-- tomast25@hotmail.com
+<strong>[@tomas-trls](https://www.github.com/tomas-trls) / tomast25@hotmail.com </strong>
 
