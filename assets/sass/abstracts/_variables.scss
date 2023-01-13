@@ -17,11 +17,28 @@ $breakpoints: (
   ),
 );
 
-//Colors
+/*Colors*/
+//Heading-Underline
 $color-darkaqua: #bae8e8;
+//banner and footer texts
 $color-whiteaqua: #f7fafa;
+
+//NOT USED
 $color-lightaqua: #e3f6f5;
+
+//Buttons and line in cards
 $color-aqua: #a3e1de;
+
+//footer, headings, important texts
 $color-darkblue: #272643;
 
+// less important paragraphs and texts.
 $color-grey: #8c9cb1;
+
+* {
+  color: $color-darkblue;
+}
+
+p {
+  color: $color-grey;
+}
