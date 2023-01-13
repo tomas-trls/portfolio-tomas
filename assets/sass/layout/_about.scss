@@ -66,8 +66,9 @@
 
   @include respond-to("medium") {
     justify-content: space-evenly;
+    margin: 50px;
     &__text {
-      padding: 0 50px;
+      padding-right: 50px;
       width: 30rem;
       height: 400px;
       justify-content: space-evenly;
