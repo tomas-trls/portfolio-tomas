@@ -1,13 +1,27 @@
 .projects {
   &__card {
+    border-radius: 8px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     width: 400px;
     height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
   }
+
   &__image {
+    border-radius: 8px 8px 0 0;
     height: 50%;
-    background: $color-lightaqua;
+    width: 100%;
+    background-color: $color-aqua;
+    border-bottom: 4px solid $color-aqua;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center -1px;
+    }
   }
 
   &__title {
@@ -25,15 +39,14 @@
     height: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     color: $color-grey;
     text-align: justify;
-    padding: 30px 20px 0;
+    padding: 0px 15px 0;
     font-size: 1rem;
     .projects__buttons {
       display: flex;
       justify-content: flex-start;
-
       a {
         margin-right: 1rem;
         text-decoration: none;
