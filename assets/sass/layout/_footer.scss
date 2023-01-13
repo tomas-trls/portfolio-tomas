@@ -9,7 +9,14 @@ footer {
 
   .footer {
     &__email {
-      color: $color-whiteaqua;
+      a {
+        text-decoration: none;
+        color: $color-whiteaqua;
+
+        &:active {
+          color: $color-aqua;
+        }
+      }
     }
     &__list {
       padding-bottom: 10px;
@@ -32,7 +39,9 @@ footer {
         flex-shrink: 0;
 
         a:active {
-          color: $color-aqua;
+          i {
+            color: $color-aqua;
+          }
         }
       }
     }
