@@ -25,7 +25,7 @@ Open the ```index.html``` file inside the folder.
 ## 🌚 Demo 🌝
 <br />
 <p align="center">
-  <strong><a href="https://tomas-trls.github.io/portfolio-tomas/">See the site live HERE! </a></strong>
+  <strong><a href="https://tomas-trls.github.io/portfolio-tomas/">[Live Demo] See the site live HERE! </a></strong>
 </p>
 <br />
 <img src="http://g.recordit.co/BhtlkBporx.gif"/>
