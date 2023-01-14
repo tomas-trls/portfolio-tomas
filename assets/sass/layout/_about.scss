@@ -83,7 +83,6 @@
   @include respond-to("large") {
     justify-content: space-evenly;
     &__text {
-      padding: 0 50px;
       width: 800px;
       height: 400px;
       justify-content: space-evenly;

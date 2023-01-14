@@ -325,7 +325,6 @@ header .header__name a {
     justify-content: space-evenly;
   }
   .about__text {
-    padding: 0 50px;
     width: 800px;
     height: 400px;
     justify-content: space-evenly;
