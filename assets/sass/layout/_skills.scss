@@ -67,6 +67,9 @@
     &__content {
       width: 900px;
     }
+    &__description--hidden {
+      width: 1000px;
+    }
   }
 
   @include respond-to("huge") {

@@ -1,7 +1,8 @@
 .about {
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 120vh;
+  margin-bottom: 0;
 
   &__title--hidden {
     display: none;
@@ -67,6 +68,7 @@
   @include respond-to("medium") {
     justify-content: space-evenly;
     margin: 50px;
+    height: 100vh;
     &__text {
       padding-right: 50px;
       width: 30rem;

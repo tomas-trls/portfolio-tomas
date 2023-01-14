@@ -244,7 +244,8 @@ header .header__name a {
 .about {
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 120vh;
+  margin-bottom: 0;
 }
 .about__title--hidden {
   display: none;
@@ -308,6 +309,7 @@ header .header__name a {
   .about {
     justify-content: space-evenly;
     margin: 50px;
+    height: 100vh;
   }
   .about__text {
     padding-right: 50px;
@@ -396,6 +398,9 @@ header .header__name a {
 @media (min-width: 992px) {
   .skills__content {
     width: 900px;
+  }
+  .skills__description--hidden {
+    width: 1000px;
   }
 }
 @media (min-width: 1440px) {
