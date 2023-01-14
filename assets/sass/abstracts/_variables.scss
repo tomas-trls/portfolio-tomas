@@ -17,14 +17,18 @@ $breakpoints: (
   ),
 );
 
-/*Colors*/
+/*Colors
+
+//body
+$color-white: white;
+// Original Site
 //Heading-Underline
 $color-darkaqua: #bae8e8;
 //banner and footer texts
 $color-whiteaqua: #f7fafa;
 
 //NOT USED
-$color-lightaqua: #e3f6f5;
+//$color-lightaqua: #e3f6f5;
 
 //Buttons and line in cards
 $color-aqua: #a3e1de;
@@ -34,6 +38,16 @@ $color-darkblue: #272643;
 
 // less important paragraphs and texts.
 $color-grey: #8c9cb1;
+$color-filter: invert(93%) sepia(8%) saturate(1171%) hue-rotate(118deg)
+  brightness(93%) contrast(90%);
+$color-box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+$color-footer: #272643;
+$color-footer__links: #f7fafa;
+$color-footer-texts: #a3e1de;
+$color-footer-texts--active: #f7fafa;
+*/
+
+/* Colour Styles */
 
 * {
   color: $color-darkblue;
@@ -41,4 +55,8 @@ $color-grey: #8c9cb1;
 
 p {
   color: $color-grey;
+}
+
+body {
+  background-color: $color-white;
 }
