@@ -27,8 +27,16 @@ Open the ```index.html``` file inside the folder.
 <p align="center">
   <strong><a href="https://tomas-trls.github.io/portfolio-tomas/">[Live Demo] See the site live HERE! </a></strong>
 </p>
+
+![Portfolio Demo](http://g.recordit.co/BhtlkBporx.gif)
+
 <br />
-<img src="http://g.recordit.co/BhtlkBporx.gif"/>
+<br />
+<p align="center"><strong>Coffee Theme:</strong></p>
+
+![Portfolio Coffee Theme Demo](http://g.recordit.co/6mP8N8KWB1.gif)
+
+
 
 ## ⚡️ Technologies used ⚡️
 <p align="center">
