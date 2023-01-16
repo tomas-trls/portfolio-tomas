@@ -9,6 +9,10 @@
     .nav__link {
       text-decoration: none;
       color: $color-grey;
+
+      &:hover {
+        color: $color-darkblue;
+      }
     }
 
     .nav__btn {

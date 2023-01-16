@@ -15,4 +15,9 @@
       rgba(255, 255, 255, 0.3) 0px 7px 13px -3px,
       rgba(255, 255, 255, 0.2) 0px -3px 0px inset;
   }
+
+  &:hover {
+    background-color: $color-darkblue;
+    color: $color-whiteaqua;
+  }
 }

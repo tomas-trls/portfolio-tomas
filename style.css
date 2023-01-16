@@ -85,6 +85,10 @@ body {
   background-color: #f4ece5;
   box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 4px, rgba(255, 255, 255, 0.3) 0px 7px 13px -3px, rgba(255, 255, 255, 0.2) 0px -3px 0px inset;
 }
+.btn:hover {
+  background-color: #f4ece5;
+  color: #3b3636;
+}
 
 .highlight {
   background-image: linear-gradient(#cb9569, #cb9569);
@@ -182,6 +186,9 @@ header .header__name a {
 .nav__list .nav__link {
   text-decoration: none;
   color: #b9b5ae;
+}
+.nav__list .nav__link:hover {
+  color: #f4ece5;
 }
 .nav__list .nav__btn {
   padding: 10px 30px;
