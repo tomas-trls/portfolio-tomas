@@ -11,7 +11,7 @@
 
   &__content {
     display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
     width: 90%;
     height: 65%;
     gap: 10px;
@@ -29,7 +29,14 @@
     filter: $color-filter;
     height: 75px;
     width: 75px;
+    object-fit: fill;
   }
+
+  .new__icon {
+    height: 85px;
+    width: 85px;
+  }
+
   &__title {
     color: $color-grey;
   }
@@ -52,11 +59,14 @@
 
     &__content {
       width: 750px;
-      grid-template: 1fr / repeat(9, 1fr);
-      height: 150px;
-      gap: 0;
+      grid-template: 1fr 1fr / repeat(6, 1fr);
+      height: 250px;
+      gap: 0px;
     }
 
+    &__item {
+      margin: 5px;
+    }
     &__icon {
       height: 70px;
       width: 70px;

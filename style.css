@@ -100,7 +100,7 @@ body {
   display: block;
   width: 400px;
   height: 500px;
-  box-shadow: rgba(238, 191, 153, 0.0784313725) 0px 4px 12px;
+  box-shadow: rgba(124, 124, 124, 0.0784313725) 0px 4px 12px;
 }
 .projects__image {
   border-radius: 8px 8px 0 0;
@@ -350,7 +350,7 @@ header .header__name a {
 }
 .skills__content {
   display: grid;
-  grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+  grid-template: repeat(3, 1fr)/repeat(4, 1fr);
   width: 90%;
   height: 65%;
   gap: 10px;
@@ -366,6 +366,12 @@ header .header__name a {
   filter: invert(73%) sepia(22%) saturate(765%) hue-rotate(343deg) brightness(82%) contrast(92%);
   height: 75px;
   width: 75px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.skills .new__icon {
+  height: 85px;
+  width: 85px;
 }
 .skills__title {
   color: #b9b5ae;
@@ -386,9 +392,12 @@ header .header__name a {
   }
   .skills__content {
     width: 750px;
-    grid-template: 1fr/repeat(9, 1fr);
-    height: 150px;
-    gap: 0;
+    grid-template: 1fr 1fr/repeat(6, 1fr);
+    height: 250px;
+    gap: 0px;
+  }
+  .skills__item {
+    margin: 5px;
   }
   .skills__icon {
     height: 70px;
