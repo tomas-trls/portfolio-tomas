@@ -7,6 +7,12 @@
     width: 400px;
     height: 500px;
     box-shadow: $color-box-shadow;
+    transform: scale(1);
+    transition: 500ms;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   &__image {
@@ -48,10 +54,19 @@
     .projects__buttons {
       display: flex;
       justify-content: flex-start;
+      align-items: center;
       a {
         margin-right: 1rem;
         text-decoration: none;
         color: $color-darkblue;
+        .projects__icons {
+          &:hover {
+            color: $color-darkaqua;
+          }
+        }
+        &:hover {
+          color: $color-darkaqua;
+        }
       }
     }
   }

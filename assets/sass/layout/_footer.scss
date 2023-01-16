@@ -13,7 +13,7 @@ footer {
         text-decoration: none;
         color: $color-footer-texts;
 
-        &:active {
+        &:hover {
           color: $color-footer-texts--active;
         }
       }
@@ -44,7 +44,8 @@ footer {
           i {
             color: $color-footer;
           }
-          &:active {
+
+          &:hover {
             color: $color-footer-texts--active;
             i {
               color: $color-footer-texts--active;

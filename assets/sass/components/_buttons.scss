@@ -17,6 +17,7 @@
   }
 
   &:hover {
+    transition: ease-in 300ms;
     background-color: $color-darkblue;
     color: $color-whiteaqua;
   }

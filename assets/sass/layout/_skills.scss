@@ -65,6 +65,13 @@
     }
 
     &__item {
+      transition: ease-out 500ms;
+      transform: scale(1);
+      &:hover {
+        scale: 1.2;
+        filter: invert(10%) sepia(120%) saturate(200%) hue-rotate(343deg)
+          brightness(90%) contrast(90%);
+      }
       margin: 5px;
     }
     &__icon {
