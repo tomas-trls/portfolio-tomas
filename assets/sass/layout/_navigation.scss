@@ -1,6 +1,7 @@
 .nav {
   &__burger {
     display: none;
+    width: 15px;
   }
 
   &__list {
@@ -25,7 +26,6 @@
   @include respond-to("small") {
     &__burger {
       display: block;
-      width: 15px;
     }
 
     &__list {

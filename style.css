@@ -193,6 +193,7 @@ header .header__name a {
 
 .nav__burger {
   display: none;
+  width: 15px;
 }
 .nav__list {
   display: flex;
@@ -213,7 +214,6 @@ header .header__name a {
 @media (max-width: 768px) {
   .nav__burger {
     display: block;
-    width: 15px;
   }
   .nav__list--hidden {
     display: none;
@@ -285,7 +285,7 @@ header .header__name a {
   text-align: justify;
 }
 .about__image-container {
-  max-height: 450px;
+  max-height: 300px;
 }
 .about__image {
   max-width: 100%;
@@ -346,6 +346,7 @@ header .header__name a {
   }
   .about__image-container {
     margin: 0px;
+    max-height: 500px;
     max-width: 300px;
   }
 }
@@ -360,7 +361,7 @@ header .header__name a {
   }
   .about__image-container {
     margin: 0px;
-    height: 500px;
+    height: 700px;
     flex-shrink: 0;
   }
 }
