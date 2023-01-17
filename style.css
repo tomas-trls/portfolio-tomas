@@ -213,7 +213,7 @@ header .header__name a {
 @media (max-width: 768px) {
   .nav__burger {
     display: block;
-    width: 0;
+    width: 15px;
   }
   .nav__list--hidden {
     display: none;
@@ -283,6 +283,9 @@ header .header__name a {
   color: #b9b5ae;
   font-size: 1rem;
   text-align: justify;
+}
+.about__image-container {
+  max-height: 450px;
 }
 .about__image {
   max-width: 100%;
@@ -417,7 +420,7 @@ header .header__name a {
   .skills__content {
     width: 750px;
     grid-template: 1fr 1fr/repeat(6, 1fr);
-    height: 250px;
+    height: 300px;
     gap: 0px;
   }
   .skills__item {
