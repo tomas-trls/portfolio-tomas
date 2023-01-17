@@ -423,7 +423,7 @@ header .header__name a {
   .skills__item {
     transition: ease-out 500ms;
     transform: scale(1);
-    margin: 5px;
+    margin: 25px;
   }
   .skills__item:hover {
     scale: 1.2;
