@@ -367,7 +367,7 @@ header .header__name a {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height: 100vh;
+  height: 110vh;
 }
 .skills__description--hidden {
   display: none;
