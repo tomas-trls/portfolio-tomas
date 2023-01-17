@@ -1,5 +1,5 @@
-/*Colors
-
+/*Colors*/
+/*
 //body
 $color-white: white;
 // Original Site
@@ -21,6 +21,9 @@ $color-darkblue: #272643;
 $color-grey: #8c9cb1;
 $color-filter: invert(93%) sepia(8%) saturate(1171%) hue-rotate(118deg)
   brightness(93%) contrast(90%);
+$color-filter--hover: invert(9%) sepia(8%) saturate(1200%) hue-rotate(360deg)
+  brightness(90%) contrast(100%);
+
 $color-box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 $color-footer: #272643;
 $color-footer__links: #f7fafa;
