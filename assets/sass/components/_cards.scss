@@ -53,17 +53,12 @@
     font-size: 1rem;
     .projects__buttons {
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
       align-items: center;
-      a {
+      .projects__link {
         margin-right: 1rem;
         text-decoration: none;
         color: $color-darkblue;
-        .projects__icons {
-          &:hover {
-            color: $color-darkaqua;
-          }
-        }
         &:hover {
           color: $color-darkaqua;
         }
